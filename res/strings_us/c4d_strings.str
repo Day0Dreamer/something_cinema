@@ -1,0 +1,43 @@
+STRINGTABLE{
+    IDS_RANCH_API_URL                        "https://www.ranchcomputing.com/api/ranchtools/ranchecker/cinema4d.json";
+    IDS_RANCH_WEB_URL                        "http://www.ranchcomputing.com";
+    IDS_RANCH_HELP_URL                       "https://doc.ranchcomputing.com/cinema4d:ranchecker";
+
+    IDS_RANCHECKER_CACHE_NOT_FOUND1          "# cache not found in [#].";
+    IDS_RANCH_MULTIPASS                      "Multi-Pass #";
+    IDS_RANCH_ARCHIV_CREATED                 "Archive created in [  #  ]";
+    IDS_RANCH_FAILED_CREATE_ARCHIVE           "unble to create archive";
+    IDS_RANCH_LONG_FILENAME                  "The filename [  #  ] is too long (max 20 chars)";
+
+    IDS_RANCH_RENDER_ENGINE                 "We support the version [ # ], Please send a few frames first or update";
+    IDS_RANCH_FRAME_STEP                    "Frame step set over 1, you can define specific frames on the submission web page";
+    IDS_RANCH_STEREO                        "Stereoscopic : [ Use Folder for Saving ] must be unchecked";
+    IDS_RANCH_FRAME_RANGE_OVER              "Frame range over 10,000 F can lead to issues. Please contact us for more information";
+    IDS_RANCH_RENDER_REGION_STILL_IMAGE     "Render region not supported on still image";
+    IDS_RANCH_RENDER_REGION                 "Render region (Left: # / Top: # / Right: # / Bottom: #)";
+    IDS_RANCH_FPS                           "Output Frame Rate # doesn't match with document FPS #";
+    IDS_RANCH_MISSING_ASSETS                "Missing assets : #";
+    IDS_RANCH_STILL_IMAGE                   "Please create archive with animation, still image not supported yet";
+    IDS_RANCH_PSD_STILL_IMAGE               "Output with PSD format not supported in still image ";
+    IDS_RANCH_MOVIE_FORMAT                  "Movie formats not supported please use images sequences for output";
+    IDS_RANCH_FONT_WARN                     "Unedited MoTexts or Text Splines found. Some fonts may be unrecognized on the RANCH. [ # ]";
+
+    IDS_RANCH_REDSHIFT_SPHERICAL_CAM        "Redshift Spherical Camera is not supported for still image";
+    IDS_RANCH_REDSHIFT_IRRA_CACHE           "GI cache files are mandatory for still images when using Irradiance map";
+    IDS_RANCH_REDSHIFT_RSMAP_SSS            "SSS .rsmap is required to render still images SSS";
+    IDS_RANCH_REDSHIFT_PROXY_VOLUME         "Redshift # not used in the scene or disabled increases the check time";
+
+    IDS_RANCH_OCTANE_PANORA_CAMERA          "Octane Panoramic Camera is not supported for still image";
+    IDS_RANCH_OCTANE_VIGNET_CAMERA          "[ # ] 'Camera Imager' is disabled, make sure that 'Vignetting' is not enabled in Octane Settings";
+    IDS_RANCH_OCTANE_POST_CAMERA            "[ # ] 'Post processing' is disabled, make sure that Bloom and Glare are not enabled in Octane Settings";
+    IDS_RANCH_OCTANE_POST_CAMERA_I          "[ # ] 'Post processing' disabled (not supported with still image)";
+    IDS_RANCH_OCTANE_STILLIMAGE             "Octane still image with MultiBand not supported, please use Single node";
+
+    IDS_RANCH_CORONA_NOISE_PASS_LIMIT       "Corona: No pass limit or noise level limit defined in render sittings";
+
+    IDS_RANCH_UPLOAD_DONE                   "Project NAME [  #  ] with ID [  #  ] created";
+
+    IDS_RANCH_XP_CACHE_NOTFOUND             "X-Particles: xpCache not existe.";
+    IDS_RANCH_XP_CACHE_EXTERNAL             "X-Particles doesn't support Internal Cache export. Please use external cache.";
+
+}

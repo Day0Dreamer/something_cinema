@@ -1,0 +1,25 @@
+DIALOGSTRINGS RANCHECKER_DIALOG 
+{
+    DIALOG_RANCH_TITLE "";
+
+    IDS_MYSTATIC "My Header";
+    IDS_MYSTATIC_ONE "My Settings";
+    IDS_MYSTATIC_TWO "My Views";
+    IDS_STATUS_BAR "....";
+    
+
+    BTN_CHECK "Check";
+    BTN_ARCHIVE "Archive";
+
+    IMG_HEADER "my header";
+    IDS_RANCH_MULTIPASS "Multi-Pass output from res #";
+
+     DIALOG_RANCH_FTP_TITLE "Ranchecker ";
+    IDS_FTP_HOSTNAME "Hostname";
+    IDS_FTP_PASSWORD "        Password";
+    IDS_CONNECT_FTP_NAME "Connect";
+    IDS_FOLDER_NAME "Folder      ";
+    IDS_OUT_HOSTNAME "";
+    IDS_LOGOUT_FTP_NAME "Logout";
+
+}

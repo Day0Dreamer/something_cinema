@@ -1,0 +1,42 @@
+DIALOGSTRINGS RANCHECKER_DIALOG_SETTING
+{
+    
+    DIALOG_RANCH_SETTING_TITLE "";
+
+
+
+    NAME_GROUP_ASSET "Assets";
+    IDS_USE_RANCHSYNC "Use RANCHsync V4   ";
+    IDS_AUTO_START_SYNC "Auto start Sync";
+    IDS_JOB_NAME "Job name      ";
+    IDS_STILLIMAGE "Still image";
+    IDS_MULTIBAND "MultiBand";
+    IDS_SINGLENODE "Single node";
+    IDS_SETTING_MYSTATIC_TWO "My Setting";
+    IDS_SEPARATE_ASSET "Separate assets from archive ";
+    IDS_FOLDER_NAME "Folder    ";
+    IDS_DESTINATION "Archive destination  ";
+    IDS_DESTINATION_NAME "...";
+    IDS_ADVANCED_HELP "-Use ";
+    IDS_SEND_FARM "Send to farm";
+
+    NAME_GROUP_TAKES "Takes";
+    IDS_USE_TAKES "Use takes";
+
+    NAME_GROUP_JOB "Job";
+    IDS_PRIORITY_CPU_NAME "CPU Priority";
+    IDS_PRIORITY_GPU_NAME "GPU Priority";
+    IDS_FRAMES "Frames         ";
+    IDS_FARM_NAME "Farm";
+    IDS_POWER_FARM "Power farm";
+    IDS_GPU_FARM "GPU farm";
+
+    IDS_FTP_HOSTNAME "Hostname";
+    IDS_FTP_PASSWORD "Password";
+    IDS_CONNECT_FTP_NAME "Connect";
+    IDS_USE_ASSETS_NAME "Use assets";
+
+    IDS_OUT_HOSTNAME "";
+    IDS_LOGOUT_FTP_NAME "Logout";
+
+}
